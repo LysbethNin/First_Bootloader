@@ -8,17 +8,15 @@ Note: This project is solely for my personal learning and to keep track of my pr
 
 # To run this bootloader, I used :
 
-    An emulator
-    NASM assembler
+An emulator
+NASM assembler
 
 ## Usage
 
    
-    Assemble the bootloader using NASM: `nasm -f bin bootloader.asm -o bootloader.bin` 
+Assemble the bootloader using NASM: `nasm -f bin bootloader.asm -o bootloader.bin` 
 
-    Run the bootloader:
+Run the bootloader with Qemu :
 
-    I used qemu:
-
-      `qemu-system-i386 -fda bootloader.bin`
+   `qemu-system-i386 -fda bootloader.bin`
 
