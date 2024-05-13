@@ -6,7 +6,7 @@ This is a simple bootloader written in x86 assembly language using NASM syntax. 
 
 Note: This project is solely for my personal learning and to keep track of my progress and understanding in the field of low-level programming. I do not recommend running this code.
 
-# To run this bootloader, I used need:
+# To run this bootloader, I used :
 
     An emulator
     NASM assembler
